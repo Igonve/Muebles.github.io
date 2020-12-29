@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: #808080;
+    border-width: 2px;    
+}
+
+.architecht{
+    font-weight: normal;
+    font-size: 25px;
+    padding-top: 75px;
+    padding-left: 35px;
+    border-style: solid;
+    border-color: #808080;
+    border-bottom: none;
+    border-right: none;
+
+}
+
+.Projects{
+    border-style: solid;
+    border-color: #808080;
+    border-bottom: none;
+    display: flex;
+    
+}
+
+.bloques{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-left: 190px;
+    
+}
+
+.search{
+    float: right;
+}
+
+span{
+    margin: 5px;
+    
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+
+/*.search{
+    position: relative;
+    top: -36%; left: 63%;
+    padding-top: 60px;
+
+}*/
+
+/*.contact{
+    position: relative;
+    top: -45%; left: 80%;
+
+}*/
+
+
+h1{
+    padding-top: 60px;
+    padding-left: 35px;
+    font-weight: normal;
+    font-size: 68px;
+}
+
+h3{
+    font-weight: normal;
+    font-size: 50px;
+}
+h4{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.menu{
+    border-style: solid;
+    border-color: #808080;
+    border-bottom: none;
+    border-left: none;
+
+
+}
+
+.img{
+    border-style: solid;
+    border-color: #808080;
+    border-right: none;
+}
+
+.dinnig-table{
+    padding: 25px;
+    border-style: solid;
+    border-color: #808080;
+
+}
+
+.span2018{
+    display: block;
+    margin-bottom: 110px;
+}
+
+.span-bespoke{
+    display: block;
+    margin-bottom: 150px;
+}
+
+.span-furniture{
+    display: block;
+    margin-bottom: 150px;
+}
+
+.span-bespoke2{
+    display: block;
+    margin-bottom: 150px;    
+}
+
+.span-2019{
+    display: block;
+    margin-bottom: 150px;
+}
+
+
+
+
+
+
+.blanc, .blanc2, .blanc3, .blanc4, .blanc5{
+    border-style: solid;
+    border-color: #808080;
+}
+
+.blanc{
+    border-left: none;
+}
+.blanc2{
+    border-top: none;
+
+}
+
+.plinth-sinks{
+    border-style: solid;
+    border-color: #808080;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 25px;
+
+}
+
+.Harbour-tables{
+    padding: 25px;
+
+}
+
+.img2{
+    border-style: solid;
+    border-color: #808080;
+    border-top: none;
+    
+}
+.blanc3{
+    border-style: solid;
+    border-color: #808080;
+    border-top: none;
+}
+
+.img4{
+    border-style: solid;
+    border-color: #808080;
+    border-left: none;
+    border-right: none;
+}
+
+.Sushi-Lamps{
+    border-style: solid;
+    border-color: #808080;
+    border-top: none;
+    border-bottom: none;
+    padding: 25px;
+}
+
+.tune-sofa{
+    padding: 25px;
+
+}
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "architecht Projects Projects menu"
+      "img img dinnig-table blanc"
+      "blanc2 plinth-sinks img2 img2"
+      "img3 img3 Harbour-tables blanc3"
+      "blanc4 blanc4 img4 Sushi-Lamps"
+      "img5 img5 tune-sofa blanc5";
+  }
+  
+  .architecht { grid-area: architecht; }
+  
+  .Projects { grid-area: Projects; }
+  
+  .img { grid-area: img; }
+  
+  .dinnig-table { grid-area: dinnig-table; }
+  
+  .menu { grid-area: menu; }
+  
+  .blanc { grid-area: blanc; }
+  
+  .blanc2 { grid-area: blanc2; }
+  
+  .plinth-sinks { grid-area: plinth-sinks; }
+  
+  .img2 { grid-area: img2; }
+  
+  .img3 { grid-area: img3; }
+  
+  .Harbour-tables { grid-area: Harbour-tables; }
+  
+  .blanc3 { grid-area: blanc3; }
+  
+  .blanc4 { grid-area: blanc4; }
+  
+  .img4 { grid-area: img4; }
+  
+  .Sushi-Lamps { grid-area: Sushi-Lamps; }
+  
+  .img5 { grid-area: img5; }
+  
+  .tune-sofa { grid-area: tune-sofa; }
+  
+  .blanc5 { grid-area: blanc5; }
+
+  
+  img{
+      max-width: 100%;
+      min-height: 100%;
+     }
+
+
+     @media  (max-width: 845px){
+         
+.architecht{
+    background-color: aquamarine;
+    width: 200px;
+}
+
+
+.Projects{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+.bloques{
+    display: flex;
+    flex-direction: row;
+    background-color: burlywood;
+    padding-right: 10px;
+}
+
+.search{
+    display: block;
+    margin-right: 15px;
+}
+
+.plinth-sinks{
+    float: right;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+     }
